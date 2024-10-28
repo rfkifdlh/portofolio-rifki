@@ -428,7 +428,6 @@
     height: 100vh; /* Menghapus tinggi 100vh untuk menyesuaikan konten */
     padding: 20px;
     margin: 0 25px;
-    grid-template-columns: 1fr;
   }
 
   .project-card {
