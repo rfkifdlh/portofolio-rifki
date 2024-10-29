@@ -146,7 +146,6 @@
   color: #40587b;
   margin-top: 50px; /* Menyesuaikan jarak judul dengan navbar */
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .project-text h2 {
@@ -154,7 +153,7 @@
 }
 
 .project-card {
-  background-color: white;
+  background-color: #40587b;
   border-radius: 10px;
   width: 300px; /* Anda bisa menyesuaikan lebar sesuai kebutuhan */
   border: 2px solid #40587b;
@@ -173,21 +172,21 @@
 }
 
 .project-info h4 {
-  color: #40587b;
+  color: #ffffff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .project-info p {
   font-family: "Times New Roman", Times, serif;
-  color: #40587b;
+  color: #ffffff;
 }
 
 .project-info a {
   padding: 10px 15px; /* Menambah padding horizontal untuk button */
-  border-radius: 10px;
-  background-color: white;
-  color: #40587b;
-  border: 2px solid #40587b;
+  border-radius: 15px;
+  background-color: #40587b;
+  color: white;
+  border: 2px solid white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   transition: background-color 0.5s;
   display: inline-block; /* Menjadikan link terlihat seperti button */
@@ -195,8 +194,8 @@
 }
 
 .project-info a:hover {
-  background-color: #40587b;
-  color: white;
+  background-color: white;
+  color: #40587b;
 }
 
 /* Contact Section Styling */
@@ -362,9 +361,6 @@
   .project-card {
     width: 280px;
     height: 380px;
-  }
-  .project-image {
-    width: 80%;
   }
   .project-info p {
     font-size: 15px;
