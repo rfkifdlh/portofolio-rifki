@@ -17,7 +17,7 @@
 .nav-link {
   margin-left: 30px;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-link:hover {
@@ -63,7 +63,7 @@
   background-color: white;
   color: #40587b;
   border: 2px solid #40587b;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: background-color 0.5s;
 }
 
@@ -426,7 +426,9 @@
   }
   .about-text {
     margin-bottom: 120px;
-    margin-left: 35px;
+  }
+  .about-text h2 {
+    text-align: left;
   }
 
   .project-container {
