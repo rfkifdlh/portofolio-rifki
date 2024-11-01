@@ -410,6 +410,7 @@
   .about {
     grid-template-columns: 1fr;
     text-align: center;
+    padding-top: 50px;
   }
   .about-image {
     text-align: center;
@@ -421,7 +422,7 @@
     border: 2px solid #40587b;
   }
   .about-text {
-    margin-bottom: 120px;
+    margin-bottom: 0px;
   }
   .about-text h2 {
     text-align: left;
@@ -429,7 +430,7 @@
 
   .project-container {
     grid-template-columns: 1fr;
-    height: 100vh; /* Menghapus tinggi 100vh untuk menyesuaikan konten */
+    height: auto; /* Menghapus tinggi 100vh untuk menyesuaikan konten */
     padding: 20px;
     margin: 0 25px;
   }
@@ -439,8 +440,8 @@
     height: auto; /* Mengatur tinggi sesuai konten */
   }
 
-  .project-text {
-    padding-top: 20px; /* Mengurangi jarak agar tidak terlalu jauh */
+  .project-text h2 {
+    padding-top: 80px;
   }
 
   /* Contact Section */
