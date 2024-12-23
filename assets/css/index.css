@@ -553,19 +553,19 @@
   }
 
   .project-container {
-    height: auto; /* Menghapus tinggi 100vh untuk menyesuaikan konten */
+    height: 100vh; /* Menghapus tinggi 100vh untuk menyesuaikan konten */
     padding: 20px;
     margin: 0 25px;
   }
 
   .project-card {
     width: 100%; /* Membuat kartu proyek penuh di tampilan responsif */
-    height: auto; /* Mengatur tinggi sesuai konten */
+    /* height: auto; */
   }
 
-  .project-text h2 {
+  /* .project-text h2 {
     padding-top: 80px;
-  }
+  } */
 
   /* Contact Section */
   .contact-container {
